@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  background-image: url('../Fotos/body_backround.jpg');
+  background-size: cover; /* Redimensiona la imagen para cubrir completamente el fondo */
+  background-position: center; /* Centra la imagen en el fondo */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: #fff;
+  padding: 5px 0;
+  font-size: 1.5em;
+  border-radius: 15px;
+  margin: 10px 10%;
+  text-align: center;
+}
+
+/* Estilos para la navegación */
+nav {
+  background-color: #82b5d7;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 20% 2% 20%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: rgba(0, 0, 0, 0.739);
+}
+
+
+#calificaciones-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0px 10px 10px 10px;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+
+h2 {
+  color: #ffffff; /* Azul */
+  margin-left: 10% ;
+}
+
+#calificaciones-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 3% 10% 0 10%;
+}
+
+#calificaciones-table th, #calificaciones-table td {
+  border: 1px solid #ddd;
+  padding: 2% 0 2% 5%;
+  text-align: left;
+}
+
+#calificaciones-table th {
+  background-color: #82b5d7; /* Azul */
+  border-radius: 15px;
+  color: #fff;
+}
+
+#tareas-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}

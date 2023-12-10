@@ -1,0 +1,159 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('../Fotos/body_backround.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 1.5em;
+  color: #fff;
+  border-radius: 15px;
+}
+
+/* Estilos para la navegación */
+nav {
+  background-color: #82b5d7;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 20% 2% 20%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: rgba(0, 0, 0, 0.739);
+}
+
+
+main {
+  margin: 20px auto;
+}
+
+#calendar {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#btnAgregarEvento {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #82b5d7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btnAgregarEvento:hover {
+  background-color: #529fd3;
+}
+
+#btnBorrarEvento {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #82b5d7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btnBorrarEvento:hover {
+  background-color: #529fd3;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+  width: 50%;
+  margin: 0 auto;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.fc-day-header {
+  background-color: #444;
+  color: #fff;
+}
+
+.fc-day,
+.fc-today {
+  background-color: #fff;
+}
+
+.fc-event {
+  background-color: #357d35;
+  color: #fff;
+  border: none;
+}
+
+.fc-event:hover {
+  background-color: #45a049;
+}
+
+.evento-estudio {
+  background-color: #82b5d7; /* Azul */
+  color: #fff;
+}
+
+.evento-tarea {
+  background-color: #ff4d4d; /* Rojo */
+  color: #fff;
+}
+
+.evento-examen-final {
+  background-color: #ffd633; /* Amarillo */
+  color: #fff;
+}
+
+.evento-examen-parcial {
+  background-color: #4dff4d; /* Verde */
+  color: #fff;
+}

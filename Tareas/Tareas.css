@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-image: url('../Fotos/body_backround.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #131313;
+    padding: 5px 0;
+    font-size: 1.5em;
+    margin: 10px 10%;
+    text-align: center;
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #82b5d7;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 20% 2% 20%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: rgba(0, 0, 0, 0.739);
+}
+
+/* Estilos para la sección de tareas pendientes */
+#tareas-container {
+    max-width: 800px;
+    margin: 10% 10% 0% 10%;
+}
+
+#tareas-container h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+#tareas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tareas-table th, #tareas-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#tareas-table th {
+    background-color: #82b5d7;
+    color: white;
+}
+
+#tareas-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Estilos para la sección de añadir nuevas tareas */
+#nuevaTareaForm {
+    max-width: 800px;
+    margin: 20px 10%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#nuevaTareaForm label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#nuevaTareaForm input {
+    width: 85%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 15px;
+}
+
+#nuevaTareaForm button {
+    background-color: #82b5d7;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+#nuevaTareaForm button:hover {
+    background-color: #5a8aad;
+}

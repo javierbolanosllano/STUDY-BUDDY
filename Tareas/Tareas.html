@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tareas.css">
+    <title>Tareas Pendientes</title>
+</head>
+<body>
+    <header>
+        <h1>TAREAS PENDIENTES</h1>
+    </header>
+    <nav>
+        <a href="../Tareas/Tareas.html">Tareas Pendientes</a>
+        <a href="../Calificaciones/calificaciones.html">Calificaciones</a>
+        <a href="../Calendario/calendario.html">Calendario</a>
+    </nav>
+    <section id="tareas-container">
+        <h2>Tareas Pendientes</h2>
+        <table id="tareas-table">
+            <thead>
+                <tr>
+                    <th>Tarea</th>
+                    <th>Fecha</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tareas-body">
+                <!-- Cada tarea se agregará como una nueva fila aquí -->
+                <tr>
+                    <td>Estudiar para el examen</td>
+                    <td>2023-12-01</td>
+                    <td>
+                        <button onclick="marcarComoCompletada(this)">Completada</button>
+                        <button onclick="eliminarTarea(this)">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <form id="nuevaTareaForm">
+        <label for="tarea">Nueva Tarea:</label>
+        <input type="text" id="tarea" name="tarea" required>
+    
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+    
+        <button type="button" onclick="agregarNuevaTarea()">Agregar Tarea</button>
+    </form>
+    
+    <script src="Tareas.js"></script>
+</body>
+</html>

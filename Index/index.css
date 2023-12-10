@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('../Fotos/intro_backround.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Contenedor del logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  max-width: 20%;
+}
+
+#logo {
+  max-width: 100%;
+  height: auto;
+}
+
+#eslogan {
+  font-size: 160%;
+  color: #fff;
+  text-align: center;
+  margin-top: 5%
+}
+
+/* Sección de llamada a la acción (cta) */
+section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cta p {
+  font-size: 1.2em;
+  color: #fff;
+  font-weight:bolder;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+}
+
+#registrarse{
+  margin-top: 30%;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 60px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #2077b3;
+}
